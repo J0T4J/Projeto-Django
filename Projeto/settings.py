@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'receitas',
 ]
 
 MIDDLEWARE = [
@@ -51,7 +52,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'Projeto.urls'
 
-TEMPLATES = [
+TEMPLATES = [ 
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
